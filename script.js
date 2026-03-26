@@ -59,6 +59,11 @@ const categories = [
     title: "Progress & Process",
     desc: "Progress examples showing how things evolved. This category may include videos — because sometimes a timelapse says more than any before/after.",
     count: 3, spoiler: false, hasVideo: false
+  },
+  {
+    title: "My all time favorites",
+    desc: "My 19 year old self peaked with realism !!",
+    count: 6, spoiler: false, hasVideo: false
   }
 ];
 
