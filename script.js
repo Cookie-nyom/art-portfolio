@@ -13,7 +13,7 @@ const categories = [
   {
     title: "OCs for Friends & Fandoms",
     desc: "Original characters I made for friends and myself for specific fandoms. Every one of them has way more lore than I intended.",
-    count: 3, spoiler: false, hasVideo: false
+    count: 6, spoiler: false, hasVideo: false
   },
   {
     title: "Fanart",
