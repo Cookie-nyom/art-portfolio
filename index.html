@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Art Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Serif+JP:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+
+<!-- paintbrush cursor -->
+<div id="cursor-wrap">
+  <svg width="22" height="46" viewBox="0 0 36 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- handle: cool silver-lilac wood -->
+    <rect x="14" y="0" width="8" height="46" rx="4" fill="#7a6fa0"/>
+    <rect x="15.5" y="2" width="5" height="40" rx="2.5" fill="#a090c8" opacity=".45"/>
+    <!-- ferrule: muted silver -->
+    <rect x="12" y="38" width="12" height="8" rx="2" fill="#5a5070"/>
+    <rect x="12" y="39" width="12" height="2" rx="1" fill="#8878a8" opacity=".6"/>
+    <!-- bristles: dusty mauve -->
+    <ellipse cx="18" cy="60" rx="6" ry="12" fill="#b07ac8"/>
+    <ellipse cx="18" cy="60" rx="4" ry="10" fill="#d4a8e8" opacity=".65"/>
+    <!-- tip highlight -->
+    <ellipse cx="18" cy="69" rx="2.5" ry="2.5" fill="#ecdaf5" opacity=".9"/>
+    <circle cx="18" cy="72" r="1.5" fill="#f0e0fa" opacity=".85"/>
+  </svg>
+</div>
+<canvas id="trail-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Cookie-nyom ✦</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#my-art">My Art</a></li>
+    <li><a href="#commission">Commissions</a></li>
+    <li><a href="#showcase">Showcase</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <p class="hero-eyebrow">Art Portfolio
+  </p>
+  <h1 class="hero-title">Drawing is my<br><em>love language</em></h1>
+  <p class="hero-sub">Manga, OCs, fanart, shikishi boards and everything in between — welcome to my little corner of ink and imagination.</p>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    scroll
+  </div>
+</section>
+
+<!-- DIVIDER -->
+<div class="section-divider"><span>✦</span></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-deco reveal">
+    <div class="about-deco-inner">
+      <img src="images/profile.png" alt="Profile Picture" style="width: 100%; height: 100%; object-fit: cover; border-radius: 3px;">
+    </div>
+    <div class="about-frame-accent"></div>
+    <div class="about-frame-accent2"></div>
+  </div>
+  <div class="about-text reveal">
+    <p class="section-label">About Me</p>
+    <h2 class="section-title">Hello, I'm an<br>artist & storyteller</h2>
+    <p>I'm mostly known as Kookie or Cookie-nyom.</p>
+    <p> I have been drawing for fun and for a very long time.</p>
+    <p>Though it was more an on and off thing with me drawing a lot within 1-2 months and drawing barely for the rest of the year.  </p>
+    <p>This year, I want to improve my art a lot and get many chances to draw this year. </p>
+    <div class="about-tags">
+      <span class="tag">Manga</span>
+      <span class="tag">Character Design</span>
+      <span class="tag">Fanart</span>
+      <span class="tag">Shikishi</span>
+      <span class="tag">Stickers</span>
+      <span class="tag">GIFs</span>
+      <span class="tag">Visual Novel</span>
+    </div>
+  </div>
+</section>
+
+<!-- MY ART -->
+<section id="my-art">
+  <div class="inner">
+    <p class="section-label reveal">My Art</p>
+    <h2 class="section-title reveal">What I create &amp; why</h2>
+    <p class="reveal">I think my style is pretty easy to recognize, though it has changed a lot throughout the years and I do experiments sometimes. I haven't paid much attention to drawing challenges and collabs, but I'm open to them. I have enjoyed my time greatly connecting with others. </p>
+    <p class="reveal"> Right now I draw a lot of fanart for others. But normally I also draw OC's for others and myself. I used to draw a whole manga story too, though it wasn't professional but just some hobby as a 15-20 year old.</p>
+    <p class="reveal">It’s mostly digitally. I will show some traditional art but those aren’t for commissions but just examples of my art journey with different mediums. </p>
+  </div>
+</section>
+
+<!-- DIVIDER -->
+<div class="section-divider"><span>✦</span></div>
+
+<!-- COMMISSION -->
+<section id="commission">
+  <div class="inner">
+    <p class="section-label reveal">Commissions</p>
+    <h2 class="section-title reveal">Closed for commissions</h2>
+    <p class="reveal" style="font-size:1.05rem;line-height:1.9;color:#d8cce4;margin-bottom:0.5rem;">Currently not accepting commissions, Please check back later!</p>
+
+    <!-- <div class="commission-grid reveal">
+      <div class="commission-card">
+        <h4>Character Portrait</h4>
+        <p>Bust or half-body character illustration. Great for OCs, fandom characters, or profile art. Clean lineart + flat/cel shading.</p>
+      </div>
+      <div class="commission-card">
+        <h4>OC Design</h4>
+        <p>Full character sheet with front view, color palette, and optional personality notes. Fandoms or original universes welcome.</p>
+      </div>
+      <div class="commission-card">
+        <h4>Sticker Set</h4>
+        <p>Small, expressive sticker packs for WhatsApp, Telegram, or Discord. Usually 4–8 stickers per set, simple and charming.</p>
+      </div>
+      <div class="commission-card">
+        <h4>Shikishi Art</h4>
+        <p>Traditional ink illustration on shikishi board. These are limited because materials cost 5€ per board — but they're worth it!</p>
+      </div>
+    </div> -->
+
+    <div class="note reveal">
+      <strong>A few things to know:</strong> Currently I have a long list of things I want to draw, so commissions aren't open yet. Though I plan to open some in the future. Since I'm new to that type of business I would discuss payment with advice from my good friends and more experienced artists. And even if I'm known for drawing quickly, I would like to have a one month time frame to work with, just in case I get busy with LIFE.  If anyone is interested already, I would love to keep it in mind, if they are patient enough for me to open them later. So you can DM me, maybe I can give you a quick surprise. But hey, hopefully get even better with drawing when I finally open commissions!
+    </div>
+  </div>
+</section>
+
+<!-- DIVIDER -->
+<div class="section-divider"><span>✦</span></div>
+
+<!-- SHOWCASE -->
+<section id="showcase">
+  <div class="inner">
+    <p class="section-label reveal">Art Showcase</p>
+    <h2 class="section-title reveal">The full gallery</h2>
+    <p class="reveal" style="color:var(--muted);font-size:0.9rem;margin-bottom:3.5rem;">Click any image to enlarge. Use the arrows to scroll through each category.</p>
+
+    <!-- Category blocks generated by JS -->
+    <div id="categoryContainer"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label">Find Me</p>
+  <h2 class="section-title">Let's connect</h2>
+  <p>Whether you want to commission something, chat about Haikyuu, or just say hi — I'm usually somewhere on the internet.</p>
+
+  <div class="contact-links">
+    <a href="https://www.instagram.com/cookie.nyom?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="contact-link">
+      <!-- Instagram icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      Instagram
+    </a>
+    <a href="https://x.com/CookieNyom?s=20" target="_blank" class="contact-link">
+      <!-- X / Twitter icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.859L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      X (Twitter)
+    </a>
+    <a href="https://bsky.app/profile/cookie-nyom.bsky.social" target="_blank" class="contact-link">
+      <!-- Bluesky icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>
+      Bluesky
+    </a>
+  </div>
+
+  <p class="footer-note">Made with ♥ and too many late-night drawing sessions &nbsp;·&nbsp; © 2025</p>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <button class="lb-close" id="lbClose">×</button>
+  <img id="lbImg" src="" alt="enlarged artwork" />
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
