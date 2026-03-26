@@ -64,6 +64,11 @@ const categories = [
     title: "My all time favorites",
     desc: "My 19 year old self peaked with realism !!",
     count: 6, spoiler: false, hasVideo: false
+  },
+  {
+    title: "Hand-drawn illustration",
+    desc: "Hand-drawn illustrations focusing on detail, form, and creative expression",
+    count: 6, spoiler: false, hasVideo: false
   }
 ];
 
