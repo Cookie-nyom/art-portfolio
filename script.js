@@ -13,12 +13,12 @@ const categories = [
   {
     title: "OCs for Friends & Fandoms",
     desc: "Original characters I made for friends and myself for specific fandoms. Every one of them has way more lore than I intended.",
-    count: 6, spoiler: false, hasVideo: false
+    count: 7, spoiler: false, hasVideo: false
   },
   {
     title: "Fanart",
     desc: "I'm fine with fanart, though I don't change much from the source — I keep it simple and easy. For some reason it's a lot of Haikyuu. (I have no regrets.)",
-    count: 3, spoiler: false, hasVideo: false
+    count: 16, spoiler: false, hasVideo: false
   },
   {
     title: "Shikishi Boards",
@@ -33,7 +33,7 @@ const categories = [
   {
     title: "Story OCs (Unfinished Tales)",
     desc: "My other OCs from stories I never continued beyond the premise. They deserved more and I still feel guilty about it.",
-    count: 2, spoiler: false, hasVideo: false
+    count: 19, spoiler: false, hasVideo: false
   },
   {
     title: "Style Studies & Goofing Around",
@@ -43,7 +43,7 @@ const categories = [
   {
     title: "Stickers & GIFs",
     desc: "I can make simple stickers and GIFs and did so for WhatsApp. Other platforms should work too — tiny art, big feelings.",
-    count: 4, spoiler: false, hasVideo: false
+    count: 5, spoiler: false, hasVideo: false
   },
   {
     title: "Idol OCs & Their Chaos",
