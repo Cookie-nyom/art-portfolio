@@ -3,12 +3,12 @@ const categories = [
   {
     title: "Manga Through the Years",
     desc: "My manga which I started drawing at 15 — and have been redrawing every few years to see how much (or how little) I've changed. It's a personal time capsule.",
-    count: 3, spoiler: false, hasVideo: false
+    count: 11, spoiler: false, hasVideo: false
   },
   {
     title: "Panelling & Doodles",
     desc: "I still love panelling, so I doodle them sometimes. Also contains evidence of my ongoing inner fight with my OC about One Piece.",
-    count: 5, spoiler: false, hasVideo: false
+    count: 9, spoiler: false, hasVideo: false
   },
   {
     title: "OCs for Friends & Fandoms",
