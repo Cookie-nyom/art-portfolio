@@ -52,13 +52,13 @@ const categories = [
   },
   {
     title: "The Escape Game & More",
-    desc: "I made a small visual novel where the idiots are in a Halloween-themed escape game. Scary sprites are marked spoiler. Also: their signatures and mascot characters — which was a completely different challenge for me.",
+    desc: "I made a small visual novel where the idiots are in a Halloween-themed escape game. Also: their signatures and mascot characters — which was a completely different challenge for me.",
     count: 5, spoiler: false, hasVideo: false
   },
   {
     title: "Progress & Process",
     desc: "Progress examples showing how things evolved. This category may include videos — because sometimes a timelapse says more than any before/after.",
-    count: 3, spoiler: false, hasVideo: false
+    count: 8, spoiler: false, hasVideo: false
   },
   {
     title: "My all time favorites",
