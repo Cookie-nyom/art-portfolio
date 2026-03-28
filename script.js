@@ -28,7 +28,7 @@ const categories = [
   {
     title: "School & Cropped Work",
     desc: "These are cropped since some have my real name on them, and were school projects. A sin to stop drawing like this — but I will practice more.",
-    count: 2, spoiler: false, hasVideo: false
+    count: 17, spoiler: false, hasVideo: false
   },
   {
     title: "Story OCs (Unfinished Tales)",
@@ -38,7 +38,7 @@ const categories = [
   {
     title: "Style Studies & Goofing Around",
     desc: "I goof around and try out styles, as well as study. Most of the nicer backgrounds aren't made by me — I use CSP assets.",
-    count: 3, spoiler: false, hasVideo: false
+    count: 20, spoiler: false, hasVideo: false
   },
   {
     title: "Stickers & GIFs",
@@ -48,7 +48,7 @@ const categories = [
   {
     title: "Idol OCs & Their Chaos",
     desc: "My biggest lore project — my idol OCs and them being total idiots. This started innocently. It did not stay innocent.",
-    count: 8, spoiler: false, hasVideo: false
+    count: 19, spoiler: false, hasVideo: false
   },
   {
     title: "The Escape Game & More",
