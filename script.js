@@ -38,7 +38,7 @@ const categories = [
   {
     title: "Style Studies & Goofing Around",
     desc: "I goof around and try out styles, as well as study. Most of the nicer backgrounds aren't made by me — I use CSP assets.",
-    count: 20, spoiler: false, hasVideo: false
+    count: 21, spoiler: false, hasVideo: false
   },
   {
     title: "Stickers & GIFs",
